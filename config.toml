@@ -1,0 +1,81 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Djordje Atlialp"
+  keywords = "homepage, blog, science, informatics, development, programming"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+[languages]
+  [languages.en]
+    title = "Milko Rodríguez"
+    subtitle = "programming"
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "$ cd /home/"
+      logoHomeLink = "/"
+      logoColor = "#34CE67"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+[author]
+  name = "Milko-R"
+
+[blackfriday]
+  hrefTargetBlank = true
+# Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/Milko_Rodriguez/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto: milko.cra@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/milkreator/"
+[[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/milkorodriguez/"
+[[params.social]]
+    name = "goodreads"
+    url  = "https://scrapbox.io/Milko-R/"
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url = "https://i.gyazo.com/thumb/1000/ced57d93ac5c02103addc4bc058edf4a-png.png"
+    #url        = "https://i.gyazo.com/thumb/1000/f060af9afa6b1ed48d8bfefd20b5bb81-png.png"
+     #url = "https://i.gyazo.com/eace8cf01d531b20e9a794ab0f765bf5.png"
+  [[menu.main]]
+    identifier = "notes"
+    name       = "Notes"
+    url        = "https://scrapbox.io/Milko/NOTES"
