@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "http://yourgithubusername.github.io"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -72,9 +72,9 @@ theme = "hello-friend-ng"
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url = "https://i.gyazo.com/thumb/1000/ced57d93ac5c02103addc4bc058edf4a-png.png"
-    #url        = "https://i.gyazo.com/thumb/1000/f060af9afa6b1ed48d8bfefd20b5bb81-png.png"
-     #url = "https://i.gyazo.com/eace8cf01d531b20e9a794ab0f765bf5.png"
+    url        = "/about"
+     
+    
   [[menu.main]]
     identifier = "notes"
     name       = "Notes"
